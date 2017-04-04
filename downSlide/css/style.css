@@ -1,0 +1,37 @@
+.box{
+	height:300px;
+	width:320px;
+	background-color:#666;
+	-webkit-animation:slide 2s linear 0s 4 alternate-reverse both;
+	animation:slide 2s linear 0s 4 alternate-reverse both;
+}
+@-webkit-keyframes slide{
+	to{
+		-webkit-transform:translate(650px,0px);
+		-ms-transform:translate(650px,0px);
+	      transform:translate(650px,0px);
+	}
+}
+@keyframes slide{
+	to{
+		-webkit-transform:translate(650px,0px);
+		-ms-transform:translate(650px,0px);
+		transform:translate(650px,0px);
+	}
+}
+@-webkit-keyframes slidedown{
+	to{
+		-webkit-transform:translate(0px,300px);
+		-ms-transform:translate(0px,300px);
+		transform:translate(0px,300px);
+
+	}
+}
+@keyframes slidedown{
+	to{
+		-webkit-transform:translate(0px,300px);
+		-ms-transform:translate(0px,300px);
+		transform:translate(0px,300px);
+
+	}
+}

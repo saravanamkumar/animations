@@ -1,0 +1,43 @@
+.square{
+	height:200px;
+	width:200px;
+	background-color:#267;
+}
+button{
+	padding:0.5em 1em;
+	border:1px solid #999;
+	border-radius:5%;
+	margin-top:3em;
+}
+.square {
+	-webkit-animation-name:slide;
+	animation-name: slide;
+	-webkit-animation-duration:6s;
+	animation-duration:6s;
+	-webkit-animation-timing-function:linear;
+	animation-timing-function:linear;
+	-webkit-animation-iteration-count:6;
+	animation-iteration-count:6;
+	-webkit-animation-direction:alternate-reverse;
+	animation-direction:alternate-reverse;
+	-webkit-animation-play-state:paused;
+	animation-play-state:paused;
+	-webkit-animation-delay:-1s;
+	animation-delay:-1s;
+	-webkit-animation-fill-mode:backwards;
+	animation-fill-mode:backwards;
+}
+@-webkit-keyframes slide{
+	to{
+		-webkit-transform:translate(1200px,0px);
+		-ms-transform:translate(1200px,0px);
+		transform:translate(1200px,0px);
+	}
+}
+@keyframes slide{
+	to{
+		-webkit-transform:translate(1200px,0px);
+		-ms-transform:translate(1200px,0px);
+		transform:translate(1200px,0px);
+	}
+}
